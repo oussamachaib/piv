@@ -221,7 +221,7 @@ set(gca, 'YDir','reverse')
 ylabel('y [px]','Interpreter','latex')
 xlabel('x [px]','Interpreter','latex')
 
-%% median denoised displacement field
+%% mean denoised displacement field
 
 cnta=0;
 for a=1:window:l
@@ -256,7 +256,7 @@ set(gca,'FontName','TimesNewRoman','FontSize',12);
 set(gca, 'YDir','reverse')
 xlabel('x [px]','Interpreter','latex')
 
-%% median denoised displacement field
+%% wiener denoised displacement field
 
 cnta=0;
 for a=1:window:l
